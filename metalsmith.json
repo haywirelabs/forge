@@ -1,0 +1,16 @@
+{
+  "source": "./src/posts",
+  "destination": "./build",
+  "metadata": {
+    "title": "ECMS Demo",
+    "description": "ECMS Demo Application"
+  },
+  "plugins": {
+    "metalsmith-drafts": {},
+    "metalsmith-markdown": {},
+    "metalsmith-templates": {
+      "engine": "swig",
+      "directory": "/src/templates"
+    }
+  }
+}
