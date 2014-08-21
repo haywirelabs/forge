@@ -1,6 +1,6 @@
 {
-  "source": "./src/posts",
-  "destination": "./build",
+  "source": "./content",
+  "destination": "./dist",
   "metadata": {
     "title": "ECMS Demo",
     "description": "ECMS Demo Application"
@@ -10,7 +10,7 @@
     "metalsmith-markdown": {},
     "metalsmith-templates": {
       "engine": "swig",
-      "directory": "/src/templates"
+      "directory": "/templates"
     }
   }
 }
