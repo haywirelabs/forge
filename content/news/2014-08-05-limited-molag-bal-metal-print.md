@@ -1,7 +1,8 @@
 ---
 title: Molag Bal Metal Print
 date: 2014-08-05
-template: eso.html
+template: post.html
+collection: news
 ---
 
 The God of Schemes commands you to welcome him into your home. Only 100 available!

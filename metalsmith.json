@@ -11,6 +11,9 @@
     "metalsmith-templates": {
       "engine": "swig",
       "directory": "/templates"
+    },
+    "metalsmith-collections": {
+      "news": "*.md"
     }
   }
 }
