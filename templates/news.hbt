@@ -1,10 +1,17 @@
 {
-  {{#each collections.news}}
+
+  {{ collections }}
+
+  {{#each collections.news }}
   "story":{
-    "title": "{{ title }}",
-    "date": "{{ date }}",
-    "contents": "{{ contents }}",
-    "collection": "{{ collection }}"
+    "title": "{{ this.title }}",
+    "date": "{{ this.date }}",
+    "contents": "{{ this.contents }}",
+    "collection": "{{ this.collection }}"
   }
   {{/each}}
+
+
+
+
 }
