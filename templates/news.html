@@ -1,0 +1,10 @@
+{
+  {% for collections in collection %}
+  "story":{
+    "title": "{{ collection.title }}",
+    "date": "{{ collection.date | date('m-d-Y') }}",
+    "contents": "{{ collection.contents | json_encode }}",
+    "collection": "{{ collection.collection }}"
+  }
+  {% endfor %}
+}
