@@ -16,8 +16,10 @@ Run Tool
 1. ```node bin/forge_cms.js```
 2. Deployment distribution will be created in "dist" directory.
 
-Run Metalsmith CLI tool - Needs updating (do not run at this time)
----------------
+Run Metalsmith CLI tool
+-----------------------
+
+*Needs updating (do not run at this time)*
 
 ```
 npm install
