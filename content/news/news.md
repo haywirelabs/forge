@@ -1,4 +1,4 @@
 ---
 title: News
-template: news.html
+template: news.hbt
 ---

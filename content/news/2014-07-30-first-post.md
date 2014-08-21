@@ -1,7 +1,7 @@
 ---
 title: First Post
 date: 2014-07-30
-template: page.html
+template: page.hbt
 collection: news
 ---
 

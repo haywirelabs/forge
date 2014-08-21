@@ -1,7 +1,7 @@
 ---
 title: Molag Bal Metal Print
 date: 2014-08-05
-template: page.html
+template: page.hbt
 collection: news
 ---
 
