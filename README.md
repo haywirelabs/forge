@@ -19,7 +19,7 @@ Run Tool
 Run Metalsmith CLI tool
 -----------------------
 
-*Needs updating (do not run at this time)*
+**Needs updating (do not run at this time)**
 
 ```
 npm install
