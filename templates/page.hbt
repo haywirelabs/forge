@@ -1,8 +1,0 @@
-{
-  "story":{
-    "title": "{{ title }}",
-    "date": "{{ date }}",
-    "contents": "{{ contents }}",
-    "collection": "{{ collection }}"
-  }
-}

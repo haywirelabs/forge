@@ -1,5 +1,5 @@
 {
-  "name": "MetalsmithDemo",
+  "name": "Forge",
   "private": true,
   "dependencies": {
     "metalsmith-drafts": "0.0.1",
