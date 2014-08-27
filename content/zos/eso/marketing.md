@@ -1,7 +1,7 @@
 ---
 title: The Road Ahead - August 20
 date: 2014-08-20
-template: page.hbt
+template: page.html
 collection: news
 language: en-us
 tags:
