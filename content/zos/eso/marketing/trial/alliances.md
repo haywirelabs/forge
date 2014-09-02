@@ -2,6 +2,7 @@
 title: Three Alliances
 date: 2014-08-27
 template: page.html
+collection: trial
 language: en-us
 ---
 
