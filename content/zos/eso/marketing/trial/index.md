@@ -1,4 +1,4 @@
 ---
 title: trial
-template: index.html
+template: collection-trial.html
 ---
