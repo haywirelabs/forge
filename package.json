@@ -6,7 +6,7 @@
     "metalsmith-templates": "*",
     "metalsmith-markdown": "*",
     "metalsmith-collections": "*",
-    "swig": "*",
+    "handlebars": "*",
     "debug": "*",
     "marked": "*",
     "metalsmith": "*"

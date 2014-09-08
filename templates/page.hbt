@@ -1,0 +1,7 @@
+{
+  "story":{
+    "title": "{{ title }}",
+    "date": "{{ date }}",
+    "contents": "{{ contents }}"
+  }
+}

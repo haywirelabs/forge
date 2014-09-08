@@ -1,5 +1,5 @@
 ---
 title: collection - trial
-template: collection-trial.html
+template: collection-trial.hbt
 collection: trial
 ---
