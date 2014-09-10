@@ -1,3 +1,5 @@
+{{ json this }}
+
 {
   "story":{
     "title": "{{ title }}",

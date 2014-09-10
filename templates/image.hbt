@@ -1,3 +1,5 @@
+{{ json this }}
+
 {
   "image":{
     "title": "{{ title }}",

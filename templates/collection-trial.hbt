@@ -1,13 +1,6 @@
-<script>
-  Handlebars.registerHelper('json', function(obj) {
-    return JSON.stringify(obj);
-  });
-</script>
+{{ json this }}
 
 {{ title }}
-
-{{ this }}
-
 <ul>
 <li>List collection</li>
 {{#each collections.trial }}
