@@ -16,6 +16,16 @@ Run Tool
 1. ```node bin/forge_content.js```
 2. Deployment distribution will be created in "dist" directory.
 
+Run Debugger
+------------
+
+```DEBUG=* bin/forge_content.js```
+```DEBUG=forge bin/forge_content.js```
+```DEBUG=metalsmith-markdown-json bin/forge_content.js```
+```DEBUG=metalsmith-templates bin/forge_content.js```
+```DEBUG=metalsmith-collections bin/forge_content.js```
+
+
 Known Bugs
 ----------
 
