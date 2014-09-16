@@ -3,7 +3,7 @@ title: Exploration
 date: 2014-08-27
 template: page.hbt
 collection: trial
-language: fr
+language: zeta
 ---
 
 Exploration
