@@ -69,7 +69,7 @@ Build Distribution folder, and serve it with a webserver.  Application will watc
 
   - ```gulp serve```
 
-Run Metalsmith CLI tool
+~~Run Metalsmith CLI tool~~
 -----------------------
 
 **Need to remove this.  Functionality is no longer supported.**
