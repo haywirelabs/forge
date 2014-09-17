@@ -22,6 +22,7 @@
     "gulp-util": "*",
     "gulp-embedlr": "*",
     "gulp-livereload": "*",
+    "gulp-shell": "*",
     "tiny-lr": "*",
     "express": "*",
     "connect-livereload": "*"

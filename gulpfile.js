@@ -1,19 +1,25 @@
+'use strict';
+
 var gulp = require('gulp'),
     gutil = require('gulp-util'),
     jshint = require('gulp-jshint'),
     concat = require('gulp-concat'),
+    shell = require('gulp-shell'),
     clean = require('gulp-clean');
 
 // JSHint Task
 gulp.task('lint', function(){
-  gulp.src(['lib/*.js', 'bin/*.js'])
+  gulp.src(['lib/*.js', 'bin/*.js', 'gulpfile.js'])
   .pipe(jshint())
   .pipe(jshint.reporter('default'));
 });
 
 gulp.task('watch', ['lint'], function(){
-  gulp.watch(['lib/*.js', 'bin/*.js'], 'lint');
+  gulp.watch(['lib/*.js', 'bin/*.js'], ['lint']);
 });
+
+gulp.task('build', ['lint'], shell.task('node bin/forge_content.js'));
+gulp.task('debug', ['lint'], shell.task('DEBUG=* node bin/forge_content.js'));
 
 /**
 *  Gulp Server
@@ -32,11 +38,11 @@ var server = express();
 server.use(livereload({port: livereloadport}));
 server.use(express.static('./dist'));
 server.all('/*', function(req, res){
-  res.sendfile('index.html', {root: 'dist'});
+  res.sendfile('index.json', {root: 'dist'});
 });
 
-gulp.task('dev', function(){
+gulp.task('serve', ['debug'], function(){
   server.listen(serverport);
   lrserver.listen(livereloadport);
   gulp.run('watch');
-})
+});
