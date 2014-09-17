@@ -68,13 +68,3 @@ Build Distribution folder with all debugging output
 Build Distribution folder, and serve it with a webserver.  Application will watch for file changes and restart the event loop if a change is made.
 
   - ```gulp serve```
-
-~~Run Metalsmith CLI tool~~
------------------------
-
-**Need to remove this.  Functionality is no longer supported.**
-
-```
-npm install
-npm run build
-```
