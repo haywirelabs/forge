@@ -4,6 +4,7 @@ date: 2014-08-27
 template: page.hbt
 collection: trial
 language: zeta
+rank: 1
 ---
 
 Salvation cannot come from one hero alone...but from many.

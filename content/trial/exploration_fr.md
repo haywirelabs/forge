@@ -4,6 +4,7 @@ date: 2014-08-27
 template: page.hbt
 collection: trial
 language: fr
+rank: 2
 ---
 
 Exploration
