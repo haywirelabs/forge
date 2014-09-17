@@ -24,50 +24,50 @@ Run Debugger
 
 Output all debugging messages
 
-```DEBUG=* node bin/forge_content.js```
+  - ```DEBUG=* node bin/forge_content.js```
 
 Output all debugging messages from the main.js
 
-```DEBUG=forge-main node bin/forge_content.js```
+  - ```DEBUG=forge-main node bin/forge_content.js```
 
 Output all debugging messages from the markdown engine
 
-```DEBUG=markdown-json node bin/forge_content.js```
+  - ```DEBUG=markdown-json node bin/forge_content.js```
 
 Output all debugging messages from the template engine
 
-```DEBUG=metalsmith-templates node bin/forge_content.js```
+  - ```DEBUG=metalsmith-templates node bin/forge_content.js```
 
 Output all debugging messages from the collections engine
 
-```DEBUG=metalsmith-collections node bin/forge_content.js```
+  - ```DEBUG=metalsmith-collections node bin/forge_content.js```
 
 Output all debugging messages from the language collection engine
 
-```DEBUG=language-collection node bin/forge_content.js```
+  - ```DEBUG=language-collection node bin/forge_content.js```
 
 Output all debugging messages from the feed publishing engine
 
-```DEBUG=feed-publishing node bin/forge_content.js```
+  - ```DEBUG=feed-publishing node bin/forge_content.js```
 
 Gulp Functionality
 ------------------
 
 Run Linting functionality
 
-```gulp lint```
+  - ```gulp lint```
 
 Build Distribution folder (defaults to '/dist')
 
-```gulp build```
+  - ```gulp build```
 
 Build Distribution folder with all debugging output
 
-```gulp debug```
+  - ```gulp debug```
 
 Build Distribution folder, and serve it with a webserver.  Application will watch for file changes and restart the event loop if a change is made.
 
-```gulp serve```
+  - ```gulp serve```
 
 Run Metalsmith CLI tool
 -----------------------
