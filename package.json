@@ -6,15 +6,6 @@
     "metalsmith-templates": "*",
     "metalsmith-markdown": "*",
     "metalsmith-collections": "*",
-    "gulp-clean": "*",
-    "gulp-concat": "*",
-    "gulp-jshint": "*",
-    "gulp-util": "*",
-    "gulp-embedlr": "*",
-    "gulp-livereload": "*",
-    "tiny-lr": "*",
-    "connect-livereload": "*",
-    "express": "*",
     "handlebars": "*",
     "debug": "*",
     "marked": "*",
@@ -23,5 +14,16 @@
   },
   "scripts": {
     "build": "metalsmith"
+  },
+  "devDependencies": {
+    "gulp-clean": "*",
+    "gulp-concat": "*",
+    "gulp-jshint": "*",
+    "gulp-util": "*",
+    "gulp-embedlr": "*",
+    "gulp-livereload": "*",
+    "tiny-lr": "*",
+    "express": "*",
+    "connect-livereload": "*"
   }
 }
