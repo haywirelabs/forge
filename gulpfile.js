@@ -15,10 +15,6 @@ gulp.task('watch', ['lint'], function(){
   gulp.watch(['lib/*.js', 'bin/*.js'], 'lint');
 });
 
-gulp.watch(['app/index.html', 'app/views/**/*.html'], [
-  'views'
-])
-
 /**
 *  Gulp Server
 */
@@ -28,8 +24,8 @@ var embedlr = require('gulp-embedlr'),
     lrserver = require('tiny-lr')(),
     express = require('express'),
     livereload = require('connect-livereload'),
-    livereloadport = 35729,
-    serverport = 5000;
+    livereloadport = 35728,
+    serverport = 3000;
 
 var server = express();
 
