@@ -1,5 +1,5 @@
 ---
-title: Trial
+title: Versuch
 date: 2014-08-27
 template: page.hbt
 collection: trial

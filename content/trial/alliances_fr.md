@@ -1,5 +1,5 @@
 ---
-title: Three Alliances
+title: Trois Alliances
 date: 2014-08-27
 template: page.hbt
 collection: trial
