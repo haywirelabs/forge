@@ -1,7 +1,7 @@
-Forge CMS
-=========
+Forge Publishing
+================
 
-Forge CMS is a content syndication generator based on Metalsmith.io
+Forge is a content syndication generator based on Metalsmith.io
 
 Installation
 ------------
@@ -15,7 +15,7 @@ Installation
 Run Tool
 --------
 
-1. Ensure "content" is available at /content directory.
+1. Ensure markdown content is available at /content directory.
 2. ```node bin/forge_content.js```
 3. Deployment distribution will be created in "dist" directory.
 
