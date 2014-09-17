@@ -9,7 +9,7 @@
     "handlebars": "*",
     "debug": "*",
     "marked": "*",
-    "async": "*",
+    "node-html-encoder": "*",
     "metalsmith": "*"
   },
   "scripts": {
