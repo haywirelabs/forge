@@ -12,6 +12,7 @@ Installation
 3. ```npm install```
 4. ```npm install gulp -g```
 5. ```npm install jshint -g```
+6. ```npm install gulp``` (local project version of Gulp)
 
 Run Tool
 --------
@@ -66,7 +67,8 @@ Build Distribution folder with all debugging output
 
   - ```gulp debug```
 
-Build Distribution folder, and serve it with a webserver.  Application will watch for file changes and restart the event loop if a change is made.
+Build Distribution folder and serve it with a webserver.  Application will watch for file changes and restart the event loop if a change is made.
+URL: [http://localhost:3000](http://localhost:3000)
 
   - ```gulp serve```
 
