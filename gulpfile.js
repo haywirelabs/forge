@@ -37,9 +37,26 @@ var server = express();
 
 server.use(livereload({port: livereloadport}));
 server.use(express.static('./dist'));
-server.all('/*', function(req, res){
-  res.sendfile('index.json', {root: 'dist'});
+server.all('/*', function(req, res, next){
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Headers', 'X-Requested-With');
+  next();
 });
+server.get('/', function(req, res){
+  res.send('Forge Publishing System Web Server');
+});
+
+/*
+* Routes
+*/
+
+server.get('/en-us/trial', function(req, res){
+  res.sendFile('/lang/en-us/trial/index.json', { root: 'dist'});
+});
+
+/*
+* Build, Serve and Watch Application
+*/
 
 gulp.task('serve', ['debug'], function(){
   server.listen(serverport);
