@@ -68,3 +68,8 @@ Build Distribution folder with all debugging output
 Build Distribution folder, and serve it with a webserver.  Application will watch for file changes and restart the event loop if a change is made.
 
   - ```gulp serve```
+
+TODO
+----
+
+Information about Forge patch notes and roadmap are available on the [Forge Project](https://confluence.zenimaxonline.com:8444/display/services/POC+Project+-+Forge) page.
