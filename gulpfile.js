@@ -42,36 +42,37 @@ server.all('/*', function(req, res, next){
   res.header('Access-Control-Allow-Headers', 'X-Requested-With');
   next();
 });
-server.get('/', function(req, res){
-  res.send('Forge Publishing System Web Server');
-});
 
 /*
 * Routes
 */
 
+server.get('/', function(req, res){
+  res.sendFile('index.html', { root: 'server' });
+});
+
 server.get('/en-us/trial', function(req, res){
-  res.sendFile('/lang/en-us/trial/index.json', { root: 'dist'});
+  res.sendFile('/lang/en-us/trial/index.json', { root: 'dist' });
 });
 
 server.get('/fr/trial', function(req, res){
-  res.sendFile('/lang/fr/trial/index.json', { root: 'dist'});
+  res.sendFile('/lang/fr/trial/index.json', { root: 'dist' });
 });
 
 server.get('/zeta/trial', function(req, res){
-  res.sendFile('/lang/zeta/trial/index.json', { root: 'dist'});
+  res.sendFile('/lang/zeta/trial/index.json', { root: 'dist' });
 });
 
 server.get('/en-us/alliance', function(req, res){
-  res.sendFile('/lang/en-us/alliance/index.json', { root: 'dist'});
+  res.sendFile('/lang/en-us/alliance/index.json', { root: 'dist' });
 });
 
 server.get('/fr/alliance', function(req, res){
-  res.sendFile('/lang/fr/alliance/index.json', { root: 'dist'});
+  res.sendFile('/lang/fr/alliance/index.json', { root: 'dist' });
 });
 
 server.get('/zeta/alliance', function(req, res){
-  res.sendFile('/lang/zeta/alliance/index.json', { root: 'dist'});
+  res.sendFile('/lang/zeta/alliance/index.json', { root: 'dist' });
 });
 
 /*
