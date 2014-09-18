@@ -1,7 +1,8 @@
 Forge Publishing
 ================
 
-Forge is a content syndication generator based on Metalsmith.io
+Forge is a publishing application to generate syndication edge distributions for web deployment.
+Forge is designed to input a directory of markdown files, translate these into JSON, and then publish into files for purpose of deployment to the Internet.
 
 Installation
 ------------
